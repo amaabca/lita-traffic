@@ -16,6 +16,7 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency "lita", ">= 3.3"
   spec.add_dependency "grabz_it"
+  spec.add_dependency "aws-sdk"
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
